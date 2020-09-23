@@ -55,7 +55,7 @@ export default class App extends React.Component {
 
   render () {
     return (
-      <div className="App">
+      <div className="App notranslate">
         <header className="App-header">
           {this.state.op === "-"
             ? <div>{this.state.num1 + this.state.num2} - {this.state.num1} = <input autoFocus value={this.state.response} onChange={this.onChange} onKeyDown={this.onKeyDown} type="number"></input></div>
